@@ -1,0 +1,617 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.gradient{
+    width: 100%;
+    background: linear-gradient(to top, #34263b, #734f82);
+    border-top: 1px solid #34263b;
+    border-bottom: 1px solid #34263b;
+}
+.bg{
+    background: url(img/bg1.png) no-repeat;
+    border-top: 1px solid #34263b;
+    border-bottom: 1px solid #34263b;
+}
+.menu{
+    font-family: "LeagueGothic", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 50px;
+
+}
+.table{
+    float: right;
+    margin-left: 17px;
+}
+.table a{
+    font-size: 24px;
+    text-shadow:  0 1px 1px black;
+    margin-top: 10px;
+    display: inline-block;
+    font-family: "LeagueGothic", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: normal;
+    text-align: center;
+    margin-left: 17px;
+}
+.menu .table a:first-child{
+    border-bottom: 2px solid #edbfff ;
+    color: #edbfff;
+}
+.menu .table span{
+    color: white;
+
+}
+.table a:hover{
+    border-bottom: 2px solid #edbfff ;
+    transition-duration: .3s;
+    font-size: 27px;
+
+}
+.footer .table a:hover{
+    border-bottom: 2px solid #edbfff ;
+    font-size: 22px;
+    transition-duration: .3s;
+}
+.logo{
+    font-size: 48px;
+    display: inline-block;
+
+}
+.w1{
+    text-shadow:  0 1px 2px black;
+}
+.w2{
+    background: -webkit-gradient(linear, left bottom,left top,color-stop(0.2, #34263b),color-stop(1, #734f82));, black;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.opacity p{
+    font-family: "OpenSans-Light", sans-serif ;
+    font-size: 16px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    margin: 0;
+}
+.phone{
+    width: 40%;
+    display: inline-block;
+    float: right;
+
+}
+.opacity:after{
+    content:'.';
+    display: block;
+    clear: both;
+}
+.textopacity{
+    width: 50%;
+    display: inline-block;
+    padding-left: 10px;
+
+}
+.white{
+    background-color: #f9f9f9;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 70px;
+    padding-left: 10px;
+
+}
+.white1{
+    width: 100%;
+    background-color: #f9f9f9;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+.white1 img{
+    margin-right:50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.blog{
+    background-color: white;
+    width: 40%;
+    display: inline-block;
+    position: relative;
+    box-shadow: 1px 1px 0 #ccc;
+
+
+}
+.blog img{
+    margin-top: 15px;
+    margin-left: -25px;
+}
+.blog h1{
+    margin-left: 30px;
+    margin-top: 15px;
+    display: inline-block;
+    font-family: "LeagueGothic", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-transform: uppercase;
+    text-shadow:  1px 0 0 #ccc;
+    color: #454545;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: normal;
+}
+.blog h1 span{
+    color: #edbfff;
+}
+.blog p{
+    padding:0 30px 30px 55px;
+    overflow: hidden;
+    font-family: "OpenSans-Light", sans-serif ;
+    color: black;
+    text-shadow: 1px 0 0 white;
+    font-size: 15px;
+
+}
+.triangle{
+    border-top: 20px solid white;
+    border-left: 20px solid transparent ;
+    border-right:transparent;
+    position: absolute;
+    right:60px;
+
+
+}
+.triangleshadow{
+    border-top: 22px solid #cccccc;
+    border-left: 22px solid transparent ;
+    border-right:0 transparent;
+    position: absolute;
+    right:59px;
+
+}
+.updates {
+    padding:0 0 0 30px;
+    display: inline-block;
+    width: 40%;
+    margin: 30px;
+
+
+}
+.updates img{
+    float: left;
+    margin-right: 15px;
+
+}
+.updates  a{
+    font-family: "LeagueGothic", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-transform: uppercase;
+    text-shadow:  1px 1px 1px white;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    float: right;
+
+}
+.updates a:hover {
+    text-shadow: 0 0 15px #ccc;
+    cursor: pointer;
+}
+.update1{
+    overflow: hidden;
+    font-family: "OpenSans-Light", sans-serif ;
+    color: black;
+    text-shadow: 1px 0 0 white;
+    font-size: 14px;
+    position: relative;
+}
+.updates h1{
+    font-family: "LeagueGothic", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-transform: uppercase;
+    text-shadow:  1px 0 0 #ccc;
+    color: #454545;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: normal;
+}
+.grey{
+    background-color: #ececec;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    padding-left: 10px;
+
+}
+.copy{
+    display: inline-block;
+    width: 30%;
+    overflow: hidden;
+    height: 30%;
+    margin: 50px 10px 50px 0;
+
+}
+.copy h1{
+    font-family: "LeagueGothic", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-transform: uppercase;
+    color: #454545;
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: normal;
+    text-shadow: 0 1px white,1px 0 0 #ccc;
+    margin: 0 0 0 30px;
+
+}
+.copy h1 span{
+    color: #ccc;
+    text-shadow: none;
+}
+.copy p{
+    font-family: "OpenSans-Light", sans-serif ;
+    color: #454545;
+    text-shadow: 1px 0 0 white;
+    font-size: 16px;
+
+}
+.footer{
+    position: relative;
+    width: 100%;
+    background: url(img/footer.png) no-repeat;
+    border-top: 1px solid #e6e6e6;
+    text-align: center;
+    height: 70px;
+}
+.footer .table a{
+    font-size: 20px;
+    border: none;
+    margin: 0 0 0 17px;
+}
+.footer .table{
+    margin-top: 20px ;
+}
+.opacity{
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    margin: 100px 0;
+    position: relative;
+}
+.opacity h1{
+    font-family: "LeagueGothic", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: white;
+    text-shadow:  0 1px 2px black;
+    clear: both;
+    font-weight: normal;
+    margin: 50px 0 0 0;
+    font-size: 60px;
+
+}
+.opacity h3{
+    font-family: "LeagueGothic", "Helvetica Neue", "Helvetica", "Arial", serif;
+    text-transform: uppercase;
+    color: #edbfff;
+    text-shadow:  0 1px 2px black;
+    font-weight: normal;
+    margin: 0;
+    font-size: 32px;
+}
+.about{
+
+    display: inline-block;
+    position: relative;
+    margin: 40px auto;
+    width: 30%;
+
+
+}
+.about img{
+    float: left;
+    margin: 24px 28px 0 0;
+}
+.about h1{
+    font-family: "LeagueGothic", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    display:inline-block;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    text-shadow:  1px 1px 0 black;
+    font-weight: normal;
+}
+.about p{
+    overflow: hidden;
+    margin-left: 53px;
+    font-family: "OpenSans-Light", sans-serif ;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 16px;
+    height: 110px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+
+}
+.about a{
+    font-family: "LeagueGothic", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-transform: uppercase;
+    text-shadow:  1px 1px 1px black;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.about a:hover {
+    text-shadow: 0 0 15px white;
+    cursor: pointer;
+}
+@font-face {
+    font-family: "OpenSans-Light" ;
+    src: url('OpenSans-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "LeagueGothic" ;
+    src: url('fonts/League_Gothic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@media (max-width: 960px){
+    .container{
+        width: 100%;
+    }
+}
+@media (max-width: 768px){
+    .container{
+    width: 100%;
+    }
+    .phone img{
+        margin: 0;
+        width: 100% ;
+    }
+    .phone{
+    }
+    .textopacity{
+        margin:0;
+    }
+    .table{
+        float: left;
+        display: block;
+    }
+    .logo{
+        display: block;
+        margin-left: 17px;
+
+    }
+    .logo img{
+    }
+    .about h1{
+        font-size: 24px;
+    }
+    .about p{
+    }
+    .opacity h1{
+        font-size: 48px;
+    }
+    .opacity h3{
+        font-size: 24px;
+    }
+    .opacity{
+    }
+    .copy h1{
+        font-size: 24px;
+    }
+    .blog{
+        width: 30%;
+        margin-right: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .blog h1{
+        font-size: 30px;
+        margin: 0;
+    
+    }
+    .blog p{
+        padding: 0;
+    }
+    .white1 img{
+        margin: 30px;
+    }
+    .updates{
+    margin:0;
+    }
+  
+}
+@media (max-width: 480px) {
+    .menu .table {
+        float: none;
+        margin: 0 auto;
+        height: 30px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+
+    .menu .table a:hover{
+        background: rgba(52,38,59,.9);
+        border-top: 2px solid #34263b ;
+        border-bottom: 3px solid #edbfff;
+        transition-duration: .2s;
+    }
+    .menu .table a{
+        border-top: 2px solid #34263b ;
+        border-bottom: 2px solid #734f82;
+        display: block;
+        width: 220px;
+        float: none;
+        margin: 0 auto;
+        text-decoration: none;
+    }
+    .menu .table a:first-child {
+        border-bottom: 2px solid #edbfff;
+        border-top: none;
+        margin: auto;
+        width: 60px;
+    }
+    .menu .table a:first-child:hover {
+        border-bottom: 3px solid #edbfff;
+        border-top: none;
+        margin: auto;
+        width: 220px;
+        background: rgba(52,38,59,.9);
+
+    }
+    .menu .table:hover{
+        height: 192px;
+        background: rgba(52,38,59,.8);
+        border-radius: 8px;
+        border: 1px solid black;
+        width: 220px;
+        transition-duration: .5s;
+    }
+
+
+    .logo {
+        text-align: center;
+    }
+
+    .textopacity p {
+        display: none;
+    }
+    .phone img{
+    }
+    .footer .table {
+        text-align: center;
+        font-size: 14px;
+    }
+    .opacity{
+    }
+
+    .opacity h1 {
+        font-size: 32px;
+    }
+
+    .opacity h3 {
+        font-size: 24px;
+    }
+
+    .textopacity {
+        text-align: center;
+    }
+
+    .about {
+        width: 90%;
+    }
+
+    .about h1 {
+        font-size: 24px;
+    }
+
+    .blog {
+        width: 90%;
+        box-shadow: none;
+
+    }
+
+    .triangleshadow {
+        display: none;
+    }
+
+    .updates {
+        width: 90%;
+        margin: 0;
+    }
+
+    .white1 img {
+        margin: 30px;
+    }
+
+    .update1 p {
+        margin: 10px 0;
+    }
+
+    .copy {
+        width: 90%;
+        margin-left: 10px;
+    }
+    .copy p {
+        margin: 0;
+    }
+.white1 img{
+    margin: 18px;
+}
+}
+@media (max-width: 320px) {
+    .phone{
+        display: none;
+    }
+    .grey{
+        display: none;
+    }
+    .textopacity{
+        margin: 0 auto;
+        float: none;
+    }
+    .updates p{
+        margin: 0;
+    }
+    .update1{
+        font-size: 13px;
+    }
+    .footer .table{
+        display: none;
+    }
+    .textopacity{
+        width: 90%;
+    }
+    .menu .table {
+        float: none;
+        margin: 0 auto;
+        height: 30px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+
+    .menu .table a:hover{
+        background: rgba(52,38,59,.9);
+        border-top: 2px solid #34263b ;
+        border-bottom: 3px solid #edbfff;
+        transition-duration: .2s;
+    }
+    .menu .table a{
+        border-top: 2px solid #34263b ;
+        border-bottom: 2px solid #734f82;
+        display: block;
+        width: 220px;
+        float: none;
+        margin: 0 auto;
+        text-decoration: none;
+    }
+    .menu .table a:first-child {
+        border-bottom: 2px solid #edbfff;
+        border-top: none;
+        margin: auto;
+        width: 60px;
+    }
+    .menu .table a:first-child:hover {
+        border-bottom: 3px solid #edbfff;
+        border-top: none;
+        margin: auto;
+        width: 220px;
+        background: rgba(52,38,59,.9);
+
+    }
+    .menu .table:hover{
+        height: 192px;
+        background: rgba(52,38,59,.8);
+        border-radius: 8px;
+        border: 1px solid black;
+        width: 220px;
+        transition-duration: .5s;
+    }
+}
