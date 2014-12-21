@@ -41,6 +41,7 @@ body{
     font-weight: normal;
     text-align: center;
     margin-left: 17px;
+    transition:all .2s;
 }
 .menu .table a:first-child{
     border-bottom: 2px solid #edbfff ;
@@ -52,14 +53,13 @@ body{
 }
 .table a:hover{
     border-bottom: 2px solid #edbfff ;
-    transition-duration: .3s;
-    font-size: 27px;
+    transform: scale(1.2);
 
 }
 .footer .table a:hover{
     border-bottom: 2px solid #edbfff ;
-    font-size: 22px;
-    transition-duration: .3s;
+    transition:all .2s;
+    transform: scale(1.2);
 }
 .logo{
     font-size: 48px;
@@ -438,13 +438,12 @@ body{
 
     .menu .table a:hover{
         background: rgba(52,38,59,.9);
-        border-top: 2px solid #34263b ;
         border-bottom: 3px solid #edbfff;
         transition-duration: .2s;
     }
     .menu .table a{
-        border-top: 2px solid #34263b ;
-        border-bottom: 2px solid #734f82;
+        border-bottom: 1px solid #34263b ;
+        border-top: 1px solid #734f82;
         display: block;
         width: 220px;
         float: none;
@@ -466,7 +465,7 @@ body{
 
     }
     .menu .table:hover{
-        height: 192px;
+        height: 184px;
         background: rgba(52,38,59,.8);
         border-radius: 8px;
         border: 1px solid black;
