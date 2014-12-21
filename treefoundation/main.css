@@ -201,7 +201,7 @@ a:hover{
     margin: 0;
     padding-top: 20px;
     font-size: 12px;
-    opacity: .76
+    opacity: .76;
 }
 .footer a{
      color: white;
@@ -274,7 +274,7 @@ li{
             width: 130px;
             margin: 10px auto;
         }
-        .footer, .header ul{
+        .footer ul, .header ul{
             padding-left: 0;
         }
         .grey{
