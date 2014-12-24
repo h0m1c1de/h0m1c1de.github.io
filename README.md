@@ -10,3 +10,7 @@ first html/css project
 
 ![alt tag](https://raw.githubusercontent.com/h0m1c1de/h0m1c1de.github.io/master/treefoundation/project2.png)
 
+<a href="http://h0m1c1de.github.io/casino/">http://h0m1c1de.github.io/casino/</a>
+
+![alt tag](https://raw.githubusercontent.com/h0m1c1de/h0m1c1de.github.io/master/casino/casino.png)
+
