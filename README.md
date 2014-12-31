@@ -14,3 +14,12 @@ first html/css project
 
 ![alt tag](https://raw.githubusercontent.com/h0m1c1de/h0m1c1de.github.io/master/casino/casino.png)
 
+<a href="http://h0m1c1de.github.io/casino12/">http://h0m1c1de.github.io/casino12/</a>
+
+![alt tag](https://raw.githubusercontent.com/h0m1c1de/h0m1c1de.github.io/master/casino12/screen.png)
+
+<a href="http://h0m1c1de.github.io/default/">http://h0m1c1de.github.io/default/</a>
+
+![alt tag](https://raw.githubusercontent.com/h0m1c1de/h0m1c1de.github.io/master/default/screen.png)
+
+
