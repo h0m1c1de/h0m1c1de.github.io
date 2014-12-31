@@ -1,0 +1,299 @@
+@font-face{
+font-family:'PT Sans';
+    src:url('fonts/PTN755F.ttf');
+}
+@font-face{
+    font-family: 'DroidSerif-Regular'
+        src:url('fonts/DroidSerif-Regular.ttf');
+    
+}
+@font-face{
+font-family:'DroidSerif-Bold';
+    src:url('fonts/DroidSerif-Bold.ttf');
+}
+ body{
+    width: 1260px;
+    margin: 0 auto;
+     white-space: nowrap;
+    position: relative;
+    font-family:'DroidSerif-Bold';
+    
+    
+
+}
+.logoimg{
+    float: left;
+}
+.au{
+    font-size:30.41px;
+    color:white;
+    
+}
+ul p{
+    display: block;
+    margin: -13px 0 0 0;
+}
+.select{
+    width: 300px;
+    height: 2157px;
+    position: absolute;
+    background-color: #7d7c7c;
+    left: 300px;
+    top: 0;
+    padding-top: 155px;
+    display: none;
+    
+}
+ul{
+    margin-top: 160px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    list-style-type: none;
+    font-family: "DroidSerif-Regular";
+}
+ul li{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    line-height: 50px;
+}
+.logo h1{
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    color: white;  
+    white-space: normal;
+}
+.logo{
+    margin: 40px 90px
+}
+.header{
+    width: 300px;
+    background-color: #424242;
+    height: 2357px;
+    display: inline-block;
+    float: left;
+    
+}
+.header2{
+    width: 300px;
+    background-color: #424242;
+    height: 1180px;
+    float: left;
+}
+.header2 .select{
+    height: 1014px;
+}
+.header a, .header2 a{
+    margin: 0;
+    display: block;
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 0;
+}
+.header ul a:hover,.header2 ul a:hover,.select li:hover{
+    background-color: #f50057;
+    
+}
+.hidden:hover .select{
+    display: block;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 960px;
+    background-color: #2a2a2a;
+    color: rgba(0,0,0,.8);
+    display: inline-block;
+
+    
+    
+}
+
+.container .top2014{
+    margin: 45px 60px;
+    color: white;
+    font-size:24px;
+    font-weight: normal;
+}
+.top h1{
+    margin: 0;
+    padding: 60px 0 20px 60px;
+    font-size: 24px;
+    font-weight: normal;
+}
+.top p{
+    padding: 10px 140px 30px 60px;
+    font-family: 'PT Sans';
+    font-size:14px;
+    white-space:pre-wrap
+
+    
+}
+.top{
+    margin: 0;
+    background-color: #f2f2f2;
+    padding-bottom: 1px
+}
+table{
+    width: 960px;
+    
+}
+table tr{
+    height: 140px;
+    background-color: #f2f2f2;
+    width: 960px;
+}
+table tr:hover
+{
+      background-color: #f50057;
+    color: white;
+    
+}
+table tr:hover .read{
+    color: white;
+}
+table tr:hover .firsttd{
+    color: black;
+}
+.firsttd{
+    width: 400px;
+}
+.top h1 img{
+    float: left;
+    margin-left: -50px;
+    
+    
+}
+.playnow{
+    width: 141px;
+    height: 50px;
+    background-color: #951b81;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+.playone{
+    width: 166px;
+    white-space: normal;
+}
+.pplay{
+    padding-right: 20px;
+}
+.play h3{
+    width: 120px;
+    margin: 15px auto;
+    font-weight: normal;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 25px solid #951b81;
+    border-bottom: 25px solid transparent;
+    float: right;
+}
+.playone:hover .playnow{ 
+    background-color: #6f1761;
+} 
+.playone:hover .triangle {
+    border-left: 25px solid #6f1761;
+}
+
+.play{
+    width: 165px;
+}
+table span{
+    font-size: 36.34px;
+    float: left;
+    margin: 39px;
+}
+table h3{
+    font-size: 18px;
+}
+table h2{
+    font-size: 18px;
+    font-weight: normal;
+    margin-right: 20px;
+}
+table a{
+    font-size:14px;
+    color: black;
+}
+.logocasino{
+    margin: 30px;
+    width: 150px;
+}
+.rate{
+    text-align: center;
+    width: 245px;
+}
+table{
+    border-spacing: 0 6px;
+}
+
+.More{
+    height: 50px;
+    width: 150px;
+    margin: 20px auto;
+    background-color: #951b81;
+}
+.More h2{
+    color: white;
+     width: 150px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    float: left;
+    font-weight: normal;
+}
+.More:hover{
+     background-color: #6f1761;
+}
+.down{
+    margin: 80px 60px 60px 60px;
+}
+.down h1{
+    color:white;
+    font-size: 24px;
+    margin-bottom: 50px
+}
+.down p{
+    font-size: 14px;
+    font-family: 'PT Sans';
+    color: rgba(255,255,255,.7);
+    white-space:normal;
+}
+.footer {
+    height: 90px;
+    width: 1260px;
+    color: white;
+    text-align: center;
+    background-color: rgb(0,0,0);
+    left: 0;
+    position: relative;
+    font-family: 'DroidSerif-Regular';
+  
+}
+.footer .dis{
+    margin: 0 auto;
+      font-size:13px;
+    padding-top:20px;
+    width: 660px;
+    white-space: pre-wrap;
+}
+.none{
+    margin: 0;
+    padding: 0;
+    
+}
