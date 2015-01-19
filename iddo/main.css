@@ -1,0 +1,260 @@
+body{
+	color: #363636;
+}
+.navbar{
+	margin: 0;
+	border-radius: 0;
+	text-align: right;
+	text-shadow: 1px 0 0 #a3a3a3;
+}
+.nav{
+	margin-left: 100px;
+	text-align: center
+}
+.navbar-brand{
+	font-weight: 600;
+	font-size: 22px;
+}
+.navbar-inverse .navbar-brand {
+color: #fff;
+}
+.services{
+	background-color: #ca3c3c;
+	color: #fff;
+}
+.services .row{
+	margin: 50px 0;
+}
+.our{
+	border-bottom: 3px solid #393939;
+	text-transform: uppercase;
+	color: #393939;
+	margin-bottom: 100px;
+	margin-top: 50px;
+
+}
+.our h1{
+	font-size: 41px;
+	margin: 0;
+	line-height: 40px;
+	
+}
+.services p, .services h4{
+	margin-left: 30px;
+}
+.services .glyphicon{
+	font-size: 40px;
+	border-radius: 50%;
+	padding: 30px;
+	border: 3px solid white;
+	color: #fff;
+	text-align: left;
+}
+.services .col-lg-9{
+	margin-bottom: 50px;
+}
+.icon{
+	color: #ca3c3c;
+	font-size: 30px;
+	padding: 60px 0;
+	text-align: center;
+}
+.works {
+	background-color: #ebebeb;
+}
+.works .col-md-4{
+	margin-bottom: 30px;
+}
+.works .col-md-4 img{
+	height: 253px;
+}
+.services .our{
+	color: white;
+	border-bottom: 3px solid white;
+	margin-bottom: 50px;
+	
+}
+
+.buttons{
+	margin: 30px 0 60px;
+}
+
+
+.designedby{
+	background-color: white;
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	width: 92.5%;
+	text-align: center;
+	opacity: 1;
+	border-top-right-radius: 20%
+}
+
+.designedby h4{
+	color: #ca3c3c;
+}
+.button{
+	height: 35px;
+	width: 90px;
+	border-radius: 10px;
+	border: 3px solid #ca3c3c;
+	background-color: rgba(0,0,0,0);
+	color: #ca3c3c;
+	margin: 0 3px;
+}
+.button:hover{
+	color: white;
+	background-color: #ca3c3c;
+}
+
+.grey{
+	text-align: center;
+	font-size: 36px;
+	background-color: #666;
+	color: white;
+	padding: 60px 0;
+	text-shadow: 1px 0 0 #a3a3a3;
+}
+.grey h1{
+	font-weight: 200;
+}
+.grey .glyphicon{
+	font-size: 72px;
+}
+.hiden{
+	display: none;
+}
+.team .our{
+	color: #393939;
+	border-color: #393939;
+}
+.skills a{
+	text-decoration: none;
+	color: #898989;
+}
+.skills .glyphicon{
+	margin:10px;
+	font-size: 20px
+}
+.about{
+	margin-top: 50px;
+}
+.about h3{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ca3c3c;
+}
+.skills .col-md-4{
+	float: right;
+}
+.panel-group .panel{
+	border-radius: 20px
+}
+.panel-default > .panel-heading{
+	border-radius: 20px;
+	background-color: #fff;
+}
+.skills .glyphicon-minus, .skills .glyphicon-plus{
+	float: right;
+}
+.skills{
+	padding-bottom: 130px;
+}
+.red{
+	background-color: #ca3c3c;
+	text-align: right;
+}
+.red button{
+	color: #fff;
+	border-color: white;
+	float: right;
+	margin: 30px;
+	
+}
+.red button:hover{
+	background-color: #fff;
+	color: #ca3c3c;
+}
+.red h1{
+	color: #fff;
+	font-weight: 200;
+}
+.team .glyphicon{
+	color: #ca3c3c;
+	font-size: 20px
+}
+.team .glyphicon-user{
+	font-size: 90px;
+	color: #393939;
+	
+}
+
+.team .col-md-4{
+	text-align: center
+}
+.glyphicon-plus-sign{
+	font-size: 30px;
+	color: #ca3c3c;
+	margin: 30px;
+}
+.clients{
+	background-color: #7f7f7f;
+	padding: 10px 0;
+}
+.clients .col-md-2{
+	background-color: #a6a6a6;
+	margin: 1%;
+	padding: 30px 0;
+}
+.clients img{
+	height: 30px;
+	margin: 0 auto;
+}
+.contactus{
+	background-color: #ebebeb;
+	padding-bottom: 140px;
+}
+.contactus .our{
+	margin-bottom: 10px;
+	width: 35%;
+	
+}
+.contactus p{
+	color: #898989;
+	font-size: 16px;
+}
+.contactus input{
+	width: 100%;
+	margin-top: 30px;
+	background-color: #ebebeb;
+	border: 3px solid black;
+	height: 45px;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #000;
+}
+.contactus button{
+	width: 100%;
+	height: 90px;
+	margin-top: 30px;
+	border: none;
+	background-color: #fff;
+	border-radius: 10px
+}
+input.message{
+	height: 90px;
+}
+.contactus button{
+	color: #ca3c3c;
+	font-size: 24px
+}
+.footer{
+	background-color: #252525;
+	padding: 15px;
+	text-align: center;
+}
+.footer h1{
+	color: #fff;
+}
