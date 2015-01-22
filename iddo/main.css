@@ -258,3 +258,18 @@ input.message{
 .footer h1{
 	color: #fff;
 }
+input::-webkit-input-placeholder, -moz-placeholder{
+	background-image: url();
+	color: #000;
+	padding-left: 15px;
+	
+}
+.panel.opened .glyphicon-plus{
+	display: none;
+}
+.panel.opened .glyphicon-minus{
+	display: block;
+}
+.panel .glyphicon-minus{
+	display: none;
+}
