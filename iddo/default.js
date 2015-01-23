@@ -17,8 +17,8 @@ $(document).ready(function () {
 
 	function scrollTo(buttonClass, scrollToClass) {
 		$(buttonClass).click(function () {
-			$('html, body').animate({
-				scrollTop: $(scrollToClass).position().top
+			$('html, body').stop().animate({
+				scrollTop: $(scrollToClass).position().top -50
 			}, 1000);
 		});
 
@@ -27,5 +27,6 @@ $(document).ready(function () {
 	scrollTo(".port", ".works");
 	scrollTo(".abo", ".team");
 	scrollTo(".cont", ".contactus");
+	scrollTo(".home", "body");
 
 });

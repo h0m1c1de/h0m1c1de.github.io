@@ -2,14 +2,18 @@ body{
 	color: #363636;
 }
 .navbar{
-	margin: 0;
 	border-radius: 0;
 	text-align: right;
 	text-shadow: 1px 0 0 #a3a3a3;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	
 }
 .nav{
 	margin-left: 100px;
-	text-align: center
+	text-align: center;
 }
 .navbar-brand{
 	font-weight: 600;
@@ -268,7 +272,7 @@ input::-webkit-input-placeholder, -moz-placeholder{
 	display: none;
 }
 .panel.opened .glyphicon-minus{
-	display: block;
+	display: block;;
 }
 .panel .glyphicon-minus{
 	display: none;
