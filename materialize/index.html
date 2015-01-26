@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+	<div id="modal1" class="modal">
+		<i class="medium modal-close mdi-navigation-close"></i>
+		<h4>Header</h4>
+		<img width="80%" src="img/2.jpg">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos corrupti modi quibusdam qui nulla quae amet tenetur architecto veritatis beatae. Dolorum mollitia ducimus dolorem quibusdam, excepturi officiis fugiat, necessitatibus dicta.</p>
+		<a href="#" class="waves-effect btn-flat modal-close">Agree</a>
+	</div>
+	<div id="modal2" class="modal">
+		<i class="medium modal-close mdi-navigation-close"></i>
+		<img width="80%" src="img/summer.jpg">
+		<h4>Header</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos corrupti modi quibusdam qui nulla quae amet tenetur architecto veritatis beatae. Dolorum mollitia ducimus dolorem quibusdam, excepturi officiis fugiat, necessitatibus dicta.</p>
+		<a href="#" class="waves-effect btn-flat modal-close">Agree</a>
+	</div>
+	<div id="modal3" class="modal">
+		<i class="medium modal-close mdi-navigation-close"></i>
+		<h4>Header</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos corrupti modi quibusdam qui nulla quae amet tenetur architecto veritatis beatae. Dolorum mollitia ducimus dolorem quibusdam, excepturi officiis fugiat, necessitatibus dicta.</p>
+		<a href="#" class="waves-effect btn-flat modal-close">Agree</a>
+	</div>
+	<div id="signup" class="modal">
+		<i class=" modal-close mdi-navigation-close"></i>
+		<div class="row">
+			<form class="col s12">
+				<div class="row">
+					<div class="input-field col s6">
+						<input id="first_name" type="text" class="validate">
+						<label for="first_name">First Name</label>
+					</div>
+					<div class="input-field col s6">
+						<input id="last_name" type="text" class="validate">
+						<label for="last_name">Last Name</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s6">
+						<input id="username" type="text" class="validate">
+						<label for="username">Username</label>
+					</div>
+
+
+					<div class="input-field col s6">
+						<input id="password" type="password" class="validate">
+						<label for="password">Password</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="email" type="email" class="validate">
+						<label for="email">Email</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12">
+						<label>Location</label>
+						<select>
+							<option value="" disabled selected>Choose your location</option>
+							<option value="1">Kiev</option>
+							<option value="2">Moscow</option>
+							<option value="3">London</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12">
+						<form action="#">
+							<i>
+								<input name="group1" type="radio" id="lab1">
+								<label for="lab1">Male</label>
+							</i>
+							<i>
+								<input name="group1" type="radio" id="lab2">
+								<label for="lab2">Female</label>
+							</i>
+							<i>
+								<input name="group1" type="radio" id="lab3">
+								<label for="lab3">Developer</label>
+							</i>
+						</form>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12">
+						<input type="date" class="datepicker" placeholder="Birthday">
+					</div>
+				</div>
+			</form>
+		</div>
+		<a class="btn green lighten-1 waves-teal waves-effect right" href="">Sing up</a>
+	</div>
+	<div id="login" class="modal">
+		<i class=" modal-close mdi-navigation-close"></i>
+		<div class="row">
+			<form class="col s12">
+				<div class="row">
+					<div class="input-field col s12">
+						<i class="mdi-social-person-outline prefix"></i>
+						<input id="username" type="text" class="validate">
+						<label for="username">Username</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<i class="mdi-action-lock-outline prefix"></i>
+						<input id="password" type="password" class="validate">
+						<label for="password">Password</label>
+					</div>
+				</div>
+			</form>
+		</div>
+		<a class="btn green lighten-1 waves-teal waves-effect right" href="">Login</a>
+	</div>
+	<div class="header">
+		<ul id="dropdown1" class="dropdown-content">
+			<li><a class="modal-trigger" href="#modal1">Product 1</a>
+
+
+			</li>
+			<li><a class="modal-trigger" href="#modal2">Product 2</a>
+			</li>
+			<li class="divider"></li>
+			<li><a class="modal-trigger" href="#modal3">Product 3</a>
+			</li>
+		</ul>
+		<nav>
+			<div class="nav-wrapper">
+				<div class="col s8 m12">
+					<a href="#!" class="brand-logo">Logo</a>
+
+
+					<ul id="nav-mobile" class="side-nav">
+						<a class="btn green lighten-1 waves-teal waves-effect modal-trigger" href="#login"><i class="mdi-social-person"></i>Login</a>
+						<a class="btn green lighten-1 waves-teal waves-effect modal-trigger" href="#signup"><i class="mdi-action-lock"></i>Sing up</a>
+						<li><a href="" class="hom">Home</a>
+						</li>
+						<li><a href="" class="new">News</a>
+						</li>
+						<li><a href="" class="abou">About</a>
+						</li>
+						<!-- Dropdown Trigger -->
+						<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Products<i class="mdi-navigation-arrow-drop-down right"></i></a>
+						</li>
+
+						<li>
+							<form>
+								<div class="input-field">
+									<input id="search" type="text" required>
+									<label for="search"><i class="mdi-action-search"></i>
+									</label>
+								</div>
+							</form>
+						</li>
+
+
+					</ul>
+					<a class="button-collapse right" href="#" data-activates="nav-mobile"><i class="mdi-navigation-menu"></i></a>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<div class="slider fullscreen">
+		<ul class="slides">
+			<li>
+				<img src="img/slide4.png">
+				<div class="caption center-align">
+					<h3>This is our big Tagline!</h3>
+					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				</div>
+			</li>
+			<li>
+				<img src="img/slide2.png">
+				<div class="caption left-align container">
+					<h3>Left Aligned Caption</h3>
+					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				</div>
+			</li>
+			<li>
+				<img src="img/slide3.png">
+				<div class="caption right-align container">
+					<h3>Right Aligned Caption</h3>
+					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				</div>
+			</li>
+			<li>
+				<img src="img/slide1.png">
+				<div class="caption center-align">
+					<h3>This is our big Tagline!</h3>
+					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="container news">
+		<div class="row">
+			<h1 class="newss">News</h1>
+			<div class="col m4 s12">
+				<div class="card">
+					<div class="card-image">
+						<img src="img/box1.png">
+						<span class="card-title">Card Title</span>
+					</div>
+					<div class="card-content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ipsam ad facere nisi eaque magnam modi saepe quos expedita, nihil error. Maxime temporibus distinctio voluptatum dignissimos vitae, odio ab laboriosam!</p>
+					</div>
+					<div class="card-action">
+						<a href="#">link</a>
+					</div>
+				</div>
+			</div>
+			<div class="col m4 s12">
+				<div class="card">
+					<div class="card-image">
+						<img src="img/box2.png">
+						<span class="card-title">Card Title</span>
+					</div>
+					<div class="card-content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ipsam ad facere nisi eaque magnam modi saepe quos expedita, nihil error. Maxime temporibus distinctio voluptatum dignissimos vitae, odio ab laboriosam!</p>
+					</div>
+					<div class="card-action">
+						<a href="#">link</a>
+					</div>
+				</div>
+			</div>
+			<div class="col m4 s12">
+				<div class="card">
+					<div class="card-image">
+						<img src="img/box3.png">
+						<span class="card-title">Card Title</span>
+					</div>
+					<div class="card-content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ipsam ad facere nisi eaque magnam modi saepe quos expedita, nihil error. Maxime temporibus distinctio voluptatum dignissimos vitae, odio ab laboriosam!</p>
+					</div>
+					<div class="card-action">
+						<a href="#">link</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+	</div>
+	<div class="about container">
+		<div class="row">
+			<h1>About</h1>
+			<div class="col m6 s12 mission">
+				<ul class="tabs">
+					<li class="tab col s3"><a class="active" href="#test1">Mission</a>
+					</li>
+					<li class="tab col s3"><a href="#test2">History</a>
+					</li>
+					<li class="tab col s2"><a href="#test3">Future</a>
+					</li>
+					<li class="tab col s3"><a href="#test4">Staff</a>
+					</li>
+				</ul>
+				<div id="test1" class="col s12">
+					<img src="img/summer.jpg" width="50%" class="left" alt="">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam nesciunt sapiente delectus unde obcaecati quo sint praesentium ipsa, temporibus repellendus quaerat. Veritatis cupiditate saepe eveniet excepturi, quos eius minima repellendus cumque eaque laborum deserunt nemo iste repudiandae atque voluptatum impedit, consequatur aut perspiciatis quisquam. Quas natus voluptate repellendus. Et vitae, laudantium ad quis totam, aperiam fugiat a consequuntur ea, odio dolor consequatur praesentium maiores eaque nulla alias culpa porro sunt repellendus consectetur, obcaecati eveniet accusantium deserunt doloribus. A magnam suscipit, cumque odio perspiciatis delectus atque id vel autem obcaecati aperiam aut cum et est facere similique reprehenderit, voluptatibus, esse quis.</p>
+				</div>
+				<div id="test2" class="col s12">
+					<img src="img/spring.jpg" width="50%" class="left" alt="">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque nihil vel velit quod quaerat ad recusandae architecto, quos libero consequuntur tempore qui mollitia, sit praesentium quisquam, possimus, nisi rem impedit quis. Nisi harum quibusdam, nobis? Unde sunt voluptates voluptatibus, suscipit veniam asperiores atque placeat quam hic cupiditate inventore dolor eaque nesciunt, cumque eum. A quae beatae accusamus earum, voluptates illo quas vitae odit modi obcaecati dignissimos repudiandae tempora est eligendi eum, ea tenetur dolor accusantium. Id quia magni, exercitationem ipsa nihil illum officiis architecto quam odit voluptates nulla! Aperiam perferendis fugiat iusto ipsam commodi quo, fugit, aliquid amet at consequatur quisquam quidem incidunt consequuntur aliquam eius earum? Veniam cupiditate tempora, consectetur, omnis animi quas corporis quibusdam adipisci ducimus excepturi laborum, quia pariatur! Soluta repellat excepturi tenetur et commodi ipsum doloribus impedit laudantium nam repudiandae explicabo dolorum necessitatibus ex ipsa delectus illum veniam sunt, quibusdam, dolorem cum, praesentium omnis possimus vero! Atque, assumenda? Facilis veritatis repellendus commodi voluptas quasi temporibus nihil neque ducimus ullam accusantium illo autem architecto soluta consequatur sequi officiis, corrupti reiciendis nisi, ab adipisci eveniet. Est aperiam accusamus omnis nisi. Molestias pariatur sit esse ducimus voluptas ipsa quae iusto fugit, saepe, dolores numquam laboriosam. Alias expedita cum saepe!</p>
+				</div>
+				<div id="test3" class="col s12">
+					<img src="img/winter.jpg" width="50%" class="left" alt="">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus necessitatibus tempore expedita quaerat, dolore distinctio provident mollitia ipsam cumque numquam placeat sunt minus corporis deleniti. Aperiam sequi amet dolorem autem necessitatibus recusandae earum eveniet magni possimus minus tempore quod, veritatis?</p>
+				</div>
+				<div id="test4" class="col s12">
+					<img src="img/August.jpg" width="50%" class="left" alt="">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio iste vel ratione, quaerat consequatur libero incidunt, a, facilis, eligendi quam at voluptatem placeat officiis?</p>
+				</div>
+			</div>
+			<div class="col m6 s12 accord">
+				<div class="slider text">
+					<ul class="slides text">
+						<li>
+							<i class="left large mdi-action-face-unlock"></i>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt at, blanditiis ducimus explicabo dolore, vitae molestias accusamus</p>
+							<h5 class="right">Visitor</h5>
+
+						</li>
+						<li>
+							<i class="left large mdi-action-account-circle"></i>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolores dolorum maxime fugit laborum cum? Optio blanditiis eaque.</p>
+							<h5 class="right">Visitor</h5>
+
+						</li>
+						<li>
+							<i class="left large mdi-image-tag-faces"></i>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, sapiente.</p>
+							<h5 class="right">Visitor</h5>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<footer class="page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col m6 s12">
+					<h5 class="white-text">Lorem ipsum dolor.</h5>
+					<p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi reprehenderit obcaecati facilis eos. Omnis voluptatum dolorem maxime pariatur molestias cumque illum minima sunt magni, rem reprehenderit. Quam repudiandae non, esse.</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text">Links</h5>
+					<li><a class="grey-text text-lighten-3" href="#!">Link 1</a>
+					</li>
+					<li><a class="grey-text text-lighten-3" href="#!">Link 2</a>
+					</li>
+					<li><a class="grey-text text-lighten-3" href="#!">Link 3</a>
+					</li>
+					<li><a class="grey-text text-lighten-3" href="#!">Link 4</a>
+					</li>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				© 2014 Copyright Text
+				<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/default.js"></script>
+
+</html>

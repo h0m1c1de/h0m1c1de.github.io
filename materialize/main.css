@@ -1,0 +1,104 @@
+.input-field{
+	margin-top: 0;
+}
+nav{
+	background-color: #00aec4;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+}
+.nav-wrapper .btn i{
+	line-height: normal;
+	font-size: 12px;
+	border-radius: 50%;
+	border: 2px solid white;
+	padding: 3px;
+	margin-right: 5px;
+}
+
+.btn{
+	margin: 13px 5px;
+	text-transform: none;
+	border-radius: 5px;
+	width: 150px;
+	color: #fff !important;
+}
+.slider img{
+	width: 100%;
+}
+
+
+.slider ul.slides{
+	background-color: inherit;
+	
+}
+.slider ul.slides.text{
+	height: 240px !important;
+	width: 100%;
+}
+.slider.text{
+	height: 240px !important;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	border-radius: 5px;
+	margin-top: 50px;
+}
+.text li{
+	padding: 10px;
+}
+
+
+.about, .indicators{
+	z-index: 200;
+}
+.news, .about{
+	margin-top: 100px;
+	height: 
+}
+.text ul.indicators li.indicator-item.active{
+	background-color: #00aec4 !important;
+}
+
+.mdi-navigation-close{
+	cursor: pointer;
+	font-size: 40px;
+}
+.mdi-navigation-close{
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+.datepicker{
+	cursor: pointer;
+}
+
+.mission{
+	margin-bottom: 30px;
+}
+.mission p{
+	padding: 10px;
+}
+.mission .s12{
+	padding-bottom: 30px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	margin-top: 2px
+}
+.mission img{
+	margin: 30px 10px 0 10px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	
+}
+
+@media (max-width: 768px){
+	.slider.text{
+		height: 280px !important;
+	}
+	.slider ul.slides.text{
+	height: 280px !important;
+}
+	.tabs a{
+		font-size: 13px;
+}
+}
+
+
+
